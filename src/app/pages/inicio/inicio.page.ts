@@ -20,10 +20,19 @@ export class InicioPage implements OnInit {
       redirect : '/action-sheet'
     },
     {
-      
       icon: 'alert-circle-outline',
       name: 'Alert',
       redirect : '/alert'
+    },
+    {
+      icon: 'beaker-outline',
+      name: 'Avatar',
+      redirect : '/avatar'
+    },
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Botones',
+      redirect : '/botones'
     },
   ];
 
