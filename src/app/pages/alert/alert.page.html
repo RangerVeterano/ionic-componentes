@@ -1,0 +1,15 @@
+<app-header [titulo]="'Alert'"></app-header>
+
+<ion-content class="ion-padding">
+    <ion-button (click)="presentAlert()" expand="block">
+        Alerta de un boton
+    </ion-button>
+    
+    <ion-button (click)="presentAlertMultipleButtons()" expand="block">
+        Alerta de multiples botones
+    </ion-button>
+
+    <ion-button (click)="presentAlertPrompt()" expand="block">
+        Alerta pero es un formulario
+    </ion-button>
+</ion-content>
