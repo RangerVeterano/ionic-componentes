@@ -74,6 +74,11 @@ export class InicioPage implements OnInit {
       name: 'List - Sliding',
       redirect : '/list'
     },
+    {
+      icon: 'reorder-three-outline',
+      name: 'List - Reorder',
+      redirect : '/list-reorder'
+    },
     
   ];
 
