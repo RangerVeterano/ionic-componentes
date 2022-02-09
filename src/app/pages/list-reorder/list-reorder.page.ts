@@ -9,11 +9,14 @@ export class ListReorderPage implements OnInit {
 
   personajes: string[] = ['Aquaman', 'Superman', 'Batman', 'Mujer maravilla', 'Flash'];
 
+  toggleList:boolean = true;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  //metodo para reordenar los elementos de la lista
   doReorder(event: any) {
     console.log(event);
 
