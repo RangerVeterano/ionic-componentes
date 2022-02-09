@@ -17,69 +17,74 @@ export class InicioPage implements OnInit {
     {
       icon: 'american-football-outline',
       name: 'Action sheet',
-      redirect : '/action-sheet'
+      redirect: '/action-sheet'
     },
     {
       icon: 'alert-circle-outline',
       name: 'Alert',
-      redirect : '/alert'
+      redirect: '/alert'
     },
     {
       icon: 'beaker-outline',
       name: 'Avatar',
-      redirect : '/avatar'
+      redirect: '/avatar'
     },
     {
       icon: 'radio-button-off-outline',
       name: 'Botones',
-      redirect : '/botones'
+      redirect: '/botones'
     },
     {
       icon: 'card-outline',
       name: 'Cards',
-      redirect : '/card'
+      redirect: '/card'
     },
     {
       icon: 'checkmark-circle-outline',
       name: 'Checks',
-      redirect : '/check'
+      redirect: '/check'
     },
     {
       icon: 'calendar-outline',
       name: 'DateTime',
-      redirect : '/date-time'
+      redirect: '/date-time'
     },
     {
       icon: 'car-outline',
       name: 'Fab',
-      redirect : '/fab'
+      redirect: '/fab'
     },
     {
       icon: 'grid-outline',
       name: 'Grid',
-      redirect : '/grid'
+      redirect: '/grid'
     },
     {
       icon: 'infinite-outline',
       name: 'Infinite Scroll',
-      redirect : '/infinite'
+      redirect: '/infinite'
     },
     {
       icon: 'hammer-outline',
       name: 'Input forms',
-      redirect : '/input'
+      redirect: '/input'
     },
     {
       icon: 'list-outline',
       name: 'List - Sliding',
-      redirect : '/list'
+      redirect: '/list'
     },
     {
       icon: 'reorder-three-outline',
       name: 'List - Reorder',
-      redirect : '/list-reorder'
+      redirect: '/list-reorder'
     },
-    
+    {
+      icon: 'reload-outline',
+      name: 'Loading',
+      redirect: '/loading'
+    },
+
   ];
 
   constructor() { }
