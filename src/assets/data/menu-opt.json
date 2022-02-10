@@ -88,5 +88,20 @@
         "icon": "arrow-down-circle-outline",
         "name": "Refresher",
         "redirect": "/refresher"
+    },
+    {
+        "icon": "search-outline",
+        "name": "Search",
+        "redirect": "/search"
+    },
+    {
+        "icon": "copy-outline",
+        "name": "Segment",
+        "redirect": "/segment"
+    },
+    {
+        "icon": "albums-outline",
+        "name": "Slides",
+        "redirect": "/slides"
     }
 ]
